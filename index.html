@@ -10,11 +10,17 @@
 <body>
 	<div class="container">
 		<h1> Create a List of Your Favorite Things </h1>
-
+		<div id="blanks">
+		<p> What is your name? </p>
+		<form>
+			<div class="form-group">
+				<label for="name"></label>
+				<input id="name" class="form-control" type="text">
+			</div>
 
 		<p> For each of your favorite things, type it in a separate box. </p>
 
-		<div id="blanks">
+		
 			<form>
 				<div class="form-group">
 					<label for="favoritething1"></label>
@@ -36,7 +42,7 @@
 		</div>
 
 		<div id="finallist">
-			<h1> Here is a list of your favorite things: </hi>
+			<h1> Here is a list of <span class="name"></span>'s' favorite things: </hi>
 			<p>
 			<span class="favoritething1"></span>, 
  			<span class="favoritething2"></span> & 
